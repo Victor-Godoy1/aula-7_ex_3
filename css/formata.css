@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+li,
+a {
+  text-decoration: none;
+}
+
+li {
+  margin-left: 50px;
+}
+
+ul {
+  margin: 10px 0;
+}
+
+ul h3 {
+  margin: 15px 0;
+}
+
+/* geral */
+.geral,
+footer {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/*aside*/
+.aside {
+  float: left;
+
+  display: flex;
+  align-items: center;
+
+  width: 200px;
+
+  border: 1px solid #000;
+
+  padding: 20px;
+  height: 725px;
+
+  border: 1px solid black;
+  border-radius: 0 10px 10px 0;
+
+  color: blue;
+}
+
+/* parte do conteudo  */
+.page-content {
+  clear: both;
+  display: inline-block;
+
+  margin-left: 30px;
+  width: 730px;
+}
+
+/*article da claro*/
+.sec-claro {
+  border: 1px solid red;
+  border-radius: 10px;
+
+  margin-bottom: 20px;
+
+  box-shadow: 5px 5px 5px red;
+}
+
+/*article da oi*/
+.sec-oi {
+  border: 1px solid yellow;
+  border-radius: 10px;
+
+  margin: 20px 0;
+
+  box-shadow: 5px 5px 5px yellow;
+}
+
+/* article claro e oi  */
+.sec-claro,
+.sec-oi {
+  padding: 20px 10px;
+}
+
+/* rodape */
+.rodape {
+  margin: 20px 0;
+
+  text-align: center;
+
+  padding: 20px 0 5px 0;
+
+  border: 1px solid black;
+  border-radius: 0px 10px 10px;
+}
+
+.rodape button {
+  display: block;
+  margin: 15px auto 0px auto;
+}
+
+/* footer */
+footer {
+  background: black;
+  color: white;
+
+  padding: 10px 0;
+  text-align: center;
+
+  border-radius: 10px 10px 0px 0px;
+}
